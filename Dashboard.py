@@ -24,7 +24,7 @@ with st.sidebar:
 # =========================
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data_prep_final.csv")
+    df = pd.read_csv("data_self_reward_cleaned.csv")
     return df
 
 df = load_data()
